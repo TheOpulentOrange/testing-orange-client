@@ -54,7 +54,7 @@ async def incjson(ctx):
     with open('testjson.json', 'w') as f:
         json.dump(data, f, indent=2)
     
-    print(data)
+    await ctx.send(data)
 
 
 dank_item_valuation = {
