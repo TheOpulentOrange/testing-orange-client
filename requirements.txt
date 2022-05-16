@@ -1,0 +1,8 @@
+discord.py
+python-dotenv
+requests
+asyncio
+pytz
+datetime
+numpy
+pymongo[srv]
